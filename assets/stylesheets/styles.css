@@ -46,12 +46,166 @@ Header Section
 
 .head {
     background-color: rgba(20, 19, 19, 0.863);
+    padding:  1em;
+    
+    
+    
 }
 
 *{
     margin: 0px ;
-    padding: 0px 5px 15px 5px;
+    /* padding: 0px 5px 15px 5px; */
 }
+ 
+.h5 {
+    font-size: 1.5em;
+}
+ 
+
+.h2 {
+    font-size: 2.5em;
+    text-align: center;
+    border-bottom: 2px solid rgb(126, 118, 118);
+    padding: 0em 1em 1.5em 0em;
+}
+
+
+.recent {
+    padding: 3.5em 2em 2em 1em ;
+    
+}
+
+.stretch {
+    padding-top: 1.5em;
+    width: 100%;
+    align-items: center;
+}
+
+.h4 {
+   
+   font-size: 2em; 
+   margin-top: 1.5rem;
+}
+
+.post {
+    padding-left: 0.5em;
+    font-size: 1.5rem;
+    padding-bottom: 0.5em;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+ 
+.btn {
+    border: 1px solid rgb(95, 89, 89);
+    padding: 10px 30px;
+    font-size: 0.8em;
+}
+
+
+
+.p-btn {
+    border: 1px solid orange;
+    padding: 10px 30px;
+    background-color: rgb(243, 130, 25);
+    width: 30%;
+}
+
+.btn-text {
+    color: #fff;
+    font-size: 1.3em;
+    
+}
+
+.font {
+    font-size: 2.3em;
+    padding: 0.4em 0em 0.6em 0.5em;
+    color: #fff;
+
+}
+
+.project {
+    background-image: url("../stylesheets/Images/Mask\ Group.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1.4em 0em 0em 0em;
+}
+
+.pro {
+    border: 1px solid orangered;
+    padding: 10px 30px ;
+    background-color: rgba(255, 68, 0, 0.932);
+    color: #fff;
+    font-size: 1.3em;
+    text-align: center;
+    
+    
+}
+
+.info {
+    font-size: 1.7em;
+    padding: 0em 0em 1.2em 0.4em;
+    color: #fff;
+}
+
+.add {
+   display: flex; 
+   justify-content: space-between;
+   padding: 0em 2.7em 1.4em 0.4em;
+
+}
+
+.mini {
+  border: 1px solid rgba(245, 245, 245, 0);  
+  padding: 10px 30px;
+  background-color: rgba(245, 245, 245, 0.212);
+   color: white;
+   font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
