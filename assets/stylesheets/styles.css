@@ -17,7 +17,38 @@ Header Section
      flex-direction: column;
      
  }
+
+ .h-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.6em;
+    margin-left: 1.3em;
+ }
+
+ .wifi {
+    margin: 0em 0.4em 0em 0.5em;
+ }
+
  
+ .web {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.3em;
+ }
+
+ .org {
+    font-size: 1.4em;
+    color: #fff;
+ }
+
+ .multi {
+    
+    display: flex;
+    justify-content: space-between;
+    
+ }
+
+
 .h3 {
     color: white;
     font-size: 25px;
@@ -46,11 +77,13 @@ Header Section
 
 .head {
     background-color: rgba(20, 19, 19, 0.863);
-    padding:  1em;
+    /* padding:  1em; */
+
     
     
     
 }
+
 
 *{
     margin: 0px ;
@@ -59,6 +92,7 @@ Header Section
  
 .h5 {
     font-size: 1.5em;
+    color: #fff;
 }
  
 
@@ -71,7 +105,7 @@ Header Section
 
 
 .recent {
-    padding: 3.5em 2em 2em 1em ;
+    padding: 3.5em 2em 2em 2em ;
     
 }
 
@@ -143,6 +177,7 @@ Header Section
     color: #fff;
     font-size: 1.3em;
     text-align: center;
+    margin-bottom: 1.5em;
     
     
 }
@@ -170,10 +205,145 @@ Header Section
 
 
 
+.about {
+    margin: 5.6em 0em 2em 0em;
+    background-color: black;
+
+    
+}
+
+.edit {
+    color: rgb(255, 123, 0);
+    font-size: 3.8em;
+    text-align: center;
+    padding: 2em 0em 1em 0em;
+}
+
+.text {
+    color: #fff;
+    padding-left: 1.3em;
+    font-size: 1.4em;
+    padding-bottom: 1.2em;
+    
+}
+
+.resume {
+    border: 1px solid  rgb(255, 123, 0);
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 10px 30px;
+    background-color:  rgb(255, 123, 0);
+    width: 40%;
+    margin-left: 1.2em;
+}
+
+.images {
+   padding-left: 20.2rem;
+}
+
+.doc {
+    color: #fff;
+    font-size: 2.3em;
+   padding-top: 1em;
+    
+    text-align: center;
+}
 
 
+.border {
+    border-top: 2px solid gray;
+     
+    margin: 1em 1.4em 1.2em 1.5em;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 9em;
+}
+
+.svg {
+    padding-top: 2.5em;
+    padding-right: 1.3em;
+}
+
+.skills {
+    font-size: 1.6em;
+    color: #fff;
+    text-align: center;
+    padding: 0.8em 0em 0.8em 0em;
+}
+
+.end {
+    background-color: #fff;
+    padding: 2em 0em 0em 1em;
+}
+
+.user {
+    text-align: center;
+    color: rgb(25, 2, 77);
+    font-size: 2.3em;
+    font-weight: bold;
+}
+
+.form {
+    color: rgba(130, 134, 138, 0.685);
+    padding: 2em 0em 1.4em 0em;
+    font-size: 1em;
+}
+
+.bottom {
+    border-bottom: 2px solid rgba(130, 134, 138, 0.671);
+    
+    margin: 0em 1em 0.7em 1em;
+}
+
+.message {
+    width: 70%;
+    margin-top: 1.2em;
+    height: 60%;
+}
+
+.sum {
+   width: 90%;
+    padding: 2em 0em 5em 1em; 
+    background-color: rgba(130, 134, 138, 0.068);
+    margin-bottom: 2em;
+    margin-left: 1em;
+    font-style: italic;
+}
+
+.touch {
+    border: 1px solid  rgb(255, 123, 0);
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 10px 30px;
+    background-color:  rgb(255, 123, 0);
+    width: 30%;
+    margin: 0em 2em 0em 4.8em;
+}
 
 
+.final {
+    border: 1px solid rgba(130, 134, 138, 0.671);
+    margin: 5.3em 0em 2.5em 0em ;
+    width: 98%;
+}
+
+.closure {
+    display: flex;
+    justify-content: space-evenly;
+    justify-self: center;
+    margin: 0em 3.3em 0em 3.2em;
+} 
+
+.apple {
+    border: 3px solid #000;
+    border-radius: 3px;
+    margin-left: 8.8em;
+    width: 40%;
+    margin-bottom: 0.3em;
+}
 
 
 
